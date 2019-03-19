@@ -1,0 +1,11 @@
+name,type,model,url,body,describe
+用户认证,post,cas,/api/login," {
+       ""from"" : """",             
+       ""loginUser"" : ""admin"",     
+       ""pwd"" : ""admin""   
+ }",
+用户登出,post,cas,/api/logout,"{
+     ""from"" : """",                 
+     ""userId"" : ""admin"",          
+     ""token"" : ""TGT-1-rQ9ERetlsMMbHTAS1ENW2fnK3q9k-cas""      
+}",
